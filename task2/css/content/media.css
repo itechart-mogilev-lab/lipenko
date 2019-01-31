@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1024px) {
+    .content__element {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        width: 100vw;
+    }
+}

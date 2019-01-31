@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Task2</title>
+
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/article/article.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/header/header-nav.css">
+    <link rel="stylesheet" href="./css/content/content.css">
+    <link rel="stylesheet" href="./css/main-nav/main-nav.css">
+    <link rel="stylesheet" href="./css/search/search.css">
+    <link rel="stylesheet" href="./css/sidebar/sidebar.css">
+    <link rel="stylesheet" href="./css/base/media.css">
+    <link rel="stylesheet" href="./css/article/media.css">
+    <link rel="stylesheet" href="./css/content/media.css">
+    <link rel="stylesheet" href="./css/header/media.css">
+    <link rel="stylesheet" href="./css/main-nav/media.css">
+    <link rel="stylesheet" href="./css/search/media.css">
+    <link rel="stylesheet" href="./css/sidebar/media.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__top">
+                <div class="header-title">
+                    <div class="logo">
+                        <a class="logo__link" href="#">SimpleEvent</a>
+                    </div>
+                    <div class="slogan">
+                        <p class="slogan__text">Your slogan goes here</p>
+                    </div>
+                </div>
+                <div class="header-top-right-side">
+                    <nav class="nav-menu">
+                        <ul class="nav-menu-list">
+                            <li class="nav-menu-list__item"><a class="nav-menu-list__link" href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                            <li class="nav-menu-list__item"><a class="nav-menu-list__link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
+                            <li class="nav-menu-list__item"><a class="nav-menu-list__link" href="#"><i class="fa fa-map-o" aria-hidden="true"></i>Sitemap</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search">
+                        <input class="search__input-text" type="text" placeholder="search phrase">
+                        <input class="search__button-find" type="button" value="SEARCH">
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom header-bottom">
+                
+            </div>
+        </header>
+        <main class="main">
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li class="main-nav-list__item"><a class="main-nav-list__link main-nav-list__link_current" href="#">Home</a></li>
+                    <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">Our Products</a></li>
+                    <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">About Us</a></li>
+                    <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">Portfolio</a></li>
+                    <li class="main-nav-list__item"><a class="main-nav-list__link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="content__element">
+                    <section class="section">
+                        <article class="article article_new">
+                            <div class="article__mark-new-article">NEW</div>
+                            <div class="article__title">Lorem Ipsum</div>
+                            <div class="article__content article-content">
+                                <div class="article-content__picture"><img class="article-picture" src="./img/article_picture.jpg" alt="nature"></div>
+                                <div class="article-content__summary article-summary">
+                                    <div class="article-summary__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, debitis, earum iusto magnam quae dignissimos blanditiis delectus asperiores voluptatum excepturi optio! Fuga ullam cupiditate, iste esse provident, reprehenderit harum saepe exercitationem porro rem tempora autem ratione obcaecati consequatur? Impedit minima dolore vel deleniti ratione libero consectetur eius iste aliquid enim?</div>
+                                    <input class="article-summary__button-more" type="button" value="MORE">
+                                </div>
+                            </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__title">Lorem Ipsum</div>
+                            <div class="article__content article-content">
+                                <div class="article-content__picture"><img class="article-picture" src="./img/article_picture.jpg" alt="nature"></div>
+                                <div class="article-content__summary article-summary">
+                                    <div class="article-summary__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, debitis, earum iusto magnam quae dignissimos blanditiis delectus asperiores voluptatum excepturi optio! Fuga ullam cupiditate, iste esse provident, reprehenderit harum saepe exercitationem porro rem tempora autem ratione obcaecati consequatur? Impedit minima dolore vel deleniti ratione libero consectetur eius iste aliquid enim?</div>
+                                    <input class="article-summary__button-more" type="button" value="MORE">
+                                </div>
+                                </div>
+                        </article>
+                        <article class="article">
+                            <div class="article__title">Lorem Ipsum</div>
+                            <div class="article__content article-content">
+                                <div class="article-content__picture"><img class="article-picture" src="./img/article_picture.jpg" alt="nature"></div>
+                                <div class="article-content__summary article-summary">
+                                    <div class="article-summary__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, debitis, earum iusto magnam quae dignissimos blanditiis delectus asperiores voluptatum excepturi optio! Fuga ullam cupiditate, iste esse provident, reprehenderit harum saepe exercitationem porro rem tempora autem ratione obcaecati consequatur? Impedit minima dolore vel deleniti ratione libero consectetur eius iste aliquid enim?</div>
+                                    <input class="article-summary__button-more" type="button" value="MORE">
+                                </div>
+                                </div>
+                        </article>
+                    </section>
+                    <input type="checkbox" class="burger-check" id="burger">
+                    <label class="burger-mobile-menu" for="burger">
+                        <i class="fa fa-bars fa-2x burger-mobile-menu__icon" aria-hidden="true"></i>
+                    </label>
+                    <div class="sidebar" id="sidebar">
+                        <div class="sidebar__content sidebar-content">
+                            <div class="sidebar-content__about-me sidebar-about-me">
+                                <p class="sidebar-about-me__title">ABOUT ME</p>
+                                <div class="sidebar-about-me__description about-me-description">
+                                    <div class="about-me-description__picture description-picture">
+                                        <img class="description-picture__img" src="./img/simpson.png" alt="simpson">
+                                    </div>
+                                    <div class="about-me-description__text description-text">
+                                        <div class="description-text__name">Name Surname</div>
+                                        <div class="description-text__about-me">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur deserunt impedit est maxime placeat aut, fugiat cupiditate incidunt exercitationem."</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-content__categories sidebar-categories">
+                                <p class="sidebar-categories__title">CATEGORIES</p>
+                                <nav class="sidebar-categories__nav categories-nav">
+                                    <ul class="categories-list">
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Buisness</a></li>
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Art & Photography</a></li>
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Communications</a></li>
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Fashion</a></li>
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Travel</a></li>
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Sport</a></li>
+                                        <li class="categories-list__item"><a href="#" class="categories-list__link">Web-design</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="sidebar-content__entries sidebar-entries">
+                                <p class="sidebar-entries__title">ENTRIES BY MONTH</p>
+                                <nav class="sidebar-entries__nav entries-nav">
+                                    <ul class="entries-list">
+                                        <li class="entries-list__item"><a href="#" class="entries-list__link">August 2008(38)</a></li>
+                                        <li class="entries-list__item"><a href="#" class="entries-list__link">July 2008(81)</a></li>
+                                        <li class="entries-list__item"><a href="#" class="entries-list__link">June 2008(30)</a></li>
+                                        <li class="entries-list__item"><a href="#" class="entries-list__link">May 2008(69)</a></li>
+                                        <li class="entries-list__item"><a href="#" class="entries-list__link">April 2008(68)</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://use.fontawesome.com/daf44ea72e.js"></script>  
+</body>
+</html>

@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1124px) {
+    .about-me-description {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        padding: 0;
+        width: 40vw;
+        display: none;
+    }
+
+    .sidebar-content {
+        background-color: #ffffff;
+        border: 1px solid #707070;
+    }
+
+    .burger-mobile-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .burger-mobile-menu__icon {
+        margin-right: 5px;
+        margin-top: 5px;
+        padding: 2px 4px;
+        background-color: #f2f2f2;
+        color: rgb(215, 128, 26);
+        cursor: pointer;
+    }
+
+    .burger-mobile-menu__icon:hover {
+        opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .sidebar {
+        width: 55vw;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .sidebar {
+        width: 80vw;
+    }
+}

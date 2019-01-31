@@ -1,0 +1,9 @@
+.content__element {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+}
+
+.section {
+    border-top: 1px solid #b1b1b1;
+}
