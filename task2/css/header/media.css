@@ -7,15 +7,15 @@
 @media only screen and (max-width: 472px) {
     .header-title {
         padding-left: 2vw;
-        padding-top: 5px;
-        padding-bottom: 40px;
     }
 
-    .logo {
+    .header-title__logo {
+        margin-top: 5px;
         font-size: 0.9rem;
     }
 
-    .slogan {
+    .header-title__slogan {
         display: none;
+        margin-bottom: 40px;
     }
 }

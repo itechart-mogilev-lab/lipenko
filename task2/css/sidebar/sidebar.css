@@ -3,7 +3,7 @@
     border-top: 1px solid #b1b1b1;
 }
 
-.sidebar-content {
+.sidebar .content {
     background-color: #e7e5e5;
     padding: 15px 12px 0 12px;
     border-radius: 7px;
@@ -49,22 +49,13 @@
     color: #525252;
 }
 
-.sidebar-categories {
+.sidebar-categories, .sidebar-entries {
     padding: 8px 0 8px 0;
 }
 
-.sidebar-entries {
-    padding: 8px 0 8px 0;
-}
-
-.sidebar-categories__title {
+.sidebar-categories__title, .sidebar-entries__title {
     margin-bottom: 5px;
     margin-top: 5px;
-}
-
-.sidebar-entries__title {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .categories-list {

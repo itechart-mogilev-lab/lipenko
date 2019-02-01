@@ -11,7 +11,7 @@
 }
 
 @media only screen and (max-width: 472px) {
-    .article-content {
+    .article__content.content {
         flex-direction: column;
         align-items: center;
     }

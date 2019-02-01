@@ -4,29 +4,29 @@
     padding-bottom: 15px;
 }
 
-.main-nav-list {
+.main-nav__list {
     display: flex;
 }
 
-.main-nav-list__item {
+.main-nav__item {
     padding-right: 15px;
     padding-left: 15px;
     border-left: 1px solid #999999;
 }
 
-.main-nav-list__item:first-child {
+.main-nav__item:first-child {
     border-left: none;
 }
 
-.main-nav-list__link {
+.main-nav__link {
     color: rgb(92, 54, 10);
 }
 
-.main-nav-list__link:hover {
+.main-nav__link:hover {
     text-decoration-line: underline;
 }
 
-.main-nav-list__link_current {
+.main-nav__link_current {
     text-decoration-line: underline;
     font-weight: 600;
 }

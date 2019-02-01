@@ -4,15 +4,12 @@
 
 .header__top {
     background: linear-gradient(90deg, rgba(255,176,91,1) 0%, rgba(215,128,26,1) 27%, rgba(255,176,91,1) 69%, rgba(215,128,26,1) 100%);
-
     display: flex;
     justify-content: space-between;
 }
 
 .header-title {
-    padding-top: 25px;
     padding-left: 6vw;
-    padding-bottom: 25px;
 }
 
 .header-top-right-side {
@@ -21,7 +18,7 @@
     justify-content: space-between;
 }
 
-.header-bottom {
+.header__bottom {
     background: linear-gradient(90deg, rgba(249, 169, 81, 1) 0%, rgba(215,128,26,1) 26%, rgba(255,176,91,1) 69%, rgba(219, 133, 33, 1) 100%);
     margin-left: 3vw;
     margin-right: 3vw;
@@ -30,7 +27,8 @@
     border-bottom-right-radius: 25px;
 }
 
-.logo{
+.header-title__logo{
+    margin-top: 25px;
     font-size: 1.7rem;
     color: #f2f2f2;
 }
@@ -39,7 +37,8 @@
     color: #f2f2f2;
 }
 
-.slogan {
+.header-title__slogan {
+    margin-bottom: 25px;
     color: #f2f2f2;
     background-color: rgb(215, 128, 26);
     display: inline-block;
