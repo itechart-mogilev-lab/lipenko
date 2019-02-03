@@ -41,7 +41,7 @@
     padding-bottom: 15px;
 }
 
-.article__content.content {
+.article__content {
     display: flex;
     padding-bottom: 30px;
 }

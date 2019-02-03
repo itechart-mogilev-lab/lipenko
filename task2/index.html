@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="description" content="Blog about everything">
+
     <title>Task2</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
 
     <link rel="stylesheet" href="./css/base/base.css">
+
     <link rel="stylesheet" href="./css/article/article.css">
     <link rel="stylesheet" href="./css/header/header.css">
     <link rel="stylesheet" href="./css/header/header-nav.css">
@@ -95,11 +99,12 @@
                                 </div>
                         </article>
                     </section>
-                    <input type="checkbox" class="burger-check" id="burger">
-                    <label class="burger-mobile-menu" for="burger">
-                        <i class="fa fa-bars fa-2x burger-mobile-menu__icon" aria-hidden="true"></i>
-                    </label>
-                    <div class="sidebar" id="sidebar">
+                    
+                    <div class="sidebar">
+                        <input type="checkbox" class="burger-check" id="burger">
+                        <label class="burger-mobile-menu" for="burger">
+                            <i class="fa fa-bars fa-2x burger-mobile-menu__icon" aria-hidden="true"></i>
+                        </label>
                         <div class="sidebar__content content">
                             <div class="content__about-me sidebar-about-me">
                                 <p class="sidebar-about-me__title">ABOUT ME</p>
@@ -113,7 +118,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="content__categories sidebar-categories">
+                            <div class="content__categories sidebar-list">
                                 <p class="sidebar-categories__title">CATEGORIES</p>
                                 <nav class="sidebar-categories__nav categories-nav">
                                     <ul class="categories-list">
@@ -127,7 +132,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="content__entries sidebar-entries">
+                            <div class="content__entries sidebar-list">
                                 <p class="sidebar-entries__title">ENTRIES BY MONTH</p>
                                 <nav class="sidebar-entries__nav entries-nav">
                                     <ul class="entries-list">
